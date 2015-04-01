@@ -51,8 +51,14 @@ options to the ones you want. The selection box for this allows
 multiple selection, so you can look for more than one type of
 license.
 
-    // Enable this code if you want to limit to specific
-    // license types
     //t = document.getElementsByName("operatorCode")[0];
     //select_option(t, "Amateur Extra");
     //select_option(t, "General");
+
+If you fiddle with the search options, and want to make sure you did it
+right, take a look in latest.js and find and enable this line:
+
+    //page.render("debug.png");
+
+That will save a rendering of the search page after it has been filled
+out in the file "debug.png".
